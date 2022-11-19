@@ -84,7 +84,7 @@ def sendToTelegram(chatID, message):
 def main():
     try:
         chatID, name =  getUserData('<username>')
-        sendToTelegram(chatID, f'Oi, {name}!')
+        sendToTelegram(chatID, f'Hello, {name}!')
     except Exception as e:
         print(e)
 
